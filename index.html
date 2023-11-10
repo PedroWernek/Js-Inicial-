@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            //escrever os codigos javascript incorporados
+            
+            //aguardando carregamento da pagina 
+
+            window.onload  = () =>{
+
+            //document -> pagina
+            //alteração da cor de fundo da pagina 
+
+            document.body.style.backgroundColor = 'rgb(200, 200, 200)';
+
+            var botoes = document.getElementsByTagName('button');
+            console.log('Total de botões: ' + botoes.length);
+
+            var primeroBotao = botoes[0];
+            console.log(primeroBotao);
+
+            var segundoBotao = botoes[1];
+            console.log(segundoBotao);
+
+            var btnPrimeiro = document.getElementById('btnPrimeiro');
+            console.log('Primeiro Botao: ' + btnPrimeiro.textContent);
+            
+            }
+
+            //carregamneto do botão utilizando ID
+
+           
+        </script>
+    </head>
+
+    <body>
+        <button id="btnPrimeiro" onclick = "alert('Olá JavaScript!');">clique incorporado!</button><br><br>
+        <button id="btnSegundo" ondblclick="alert('Clique duplo inlide')">clique duplo inline!</button><br><br>
+        <button class="btnTerceiro">Um texto com clique</button>
+        <h1 onclick="alert('Clique realizado no texto')">Um texto com clique</h1>
+
+
+        <!--Colocar no Fanal do Body-->
+        <script src="main.js"></script>
+    </body>
+    
+</html>

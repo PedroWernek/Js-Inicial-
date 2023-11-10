@@ -1,0 +1,80 @@
+---Aprender JS---
+                             ×    
+1) - declarar uma variavel ( var, let, const);
+ -> var permite declarar duas variaveis com mesmo nome ( por isso evitar usar );
+ -> let não, dando erro; 
+ -> o const não permite mudança da variavel;
+
+
+2) - operadores:
+     = >> atribuição		let a = 10; let b = 5;
+     + >> soma			a + b = 15;
+     - >> subitração		a - b = 5;
+     * >> multiplicação 	a * b = 50;
+     / >> divisão		a / b =  2;
+     ! >> diferença
+
+     += >> a = a + b
+     -= >> a = a - b
+     *= >> a = a * b
+     /= >> a = a / b
+     != >> a != b	
+     == >> igual a: a == b;
+
+
+3) - estruturas:
+     IF ELSE( == ; != ; > ; < ; <= ; >= );
+
+let a = 10;
+let b = 5;
+
+	mensagem = a != b --> true
+	mensagem = a == b --> false
+	mensagem = a > b --> true
+	mensagem = a < b --> false
+	mensagem = a >= b --> true
+	mensagem = a <= b --> false
+     
+     SWITCH CASE (case 1, case 2, case 3, case 34, default);
+
+
+4) -  vetores e repetidores
+	vetores:
+
+	const nomes = ["Pedro","Nicolas","Enzo","Ana","Edu","Cauê"];
+	
+	repetidores:
+
+	{
+	}while
+
+	do{
+	}while
+
+	for{
+	} 
+	, 
+	for(in){
+	} 
+	, 
+	for(of){
+	}
+
+	for(let i = 0; i < nome.leighth; i++){};
+
+   	for ( i(index) in nomes ){};
+
+	for (nome(valor) of nomes ){};
+
+5) - funções convencionais e seta
+
+	   função
+
+function Somar(a , b) {
+	return a + b ;
+}
+
+	função seta 
+
+const setaSomar(a,b) => a + b;  
+	
